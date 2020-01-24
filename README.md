@@ -8,7 +8,7 @@ Generic ESLint rules package for IceMobile NodeJS backend services
 Run the following commands:
 * `npm i --save-dev eslint`
 * `npm i --save-dev eslint-plugin-jsdoc`
-* `npm i --save-dev @icemobilelab/eslint-config-backend`
+* `npm i --save-dev @icemobile/eslint-config-backend`
 
 Include the following snippet in the `.eslintrc` file in your project:
 ```

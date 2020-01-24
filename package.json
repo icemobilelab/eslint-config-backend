@@ -1,5 +1,5 @@
 {
-  "name": "@icemobilelab/eslint-config-backend",
+  "name": "@icemobile/eslint-config-backend",
   "version": "1.0.0",
   "description": "NodeJS backend eslint rules",
   "main": "index.js",
