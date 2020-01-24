@@ -13,6 +13,6 @@ Run the following commands:
 Include the following snippet in the `.eslintrc` file in your project:
 ```
 {
-    "extends": "eslint-config-myconfig"
+    "extends": "@icemobile/eslint-config-backend"
 }
 ```

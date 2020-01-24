@@ -52,5 +52,12 @@ module.exports = {
     },
     parserOptions: {
         ecmaVersion: 2018
+    },
+    settings: {
+        jsdoc: {
+            tagNamePreference: {
+                returns: 'return'
+            }
+        }
     }
 };

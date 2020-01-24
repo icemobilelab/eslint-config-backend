@@ -1,6 +1,6 @@
 {
   "name": "@icemobile/eslint-config-backend",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NodeJS backend eslint rules",
   "main": "index.js",
   "scripts": {
