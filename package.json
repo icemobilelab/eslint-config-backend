@@ -1,0 +1,23 @@
+{
+  "name": "@icemobilelab/eslint-config-backend",
+  "version": "1.0.0",
+  "description": "NodeJS backend eslint rules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icemobilelab/eslint-config-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/icemobilelab/eslint-config-backend/issues"
+  },
+  "homepage": "https://github.com/icemobilelab/eslint-config-backend#readme",
+  "peerDependencies": {
+    "eslint": ">= 5",
+    "eslint-plugin-jsdoc": ">=15"
+  }
+}
