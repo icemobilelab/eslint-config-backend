@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/icemobilelab/eslint-config-backend#readme",
   "peerDependencies": {
-    "eslint": ">= 5",
-    "eslint-plugin-jsdoc": ">=15"
+    "eslint": ">= 5"
   }
 }
