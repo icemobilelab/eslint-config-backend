@@ -19,7 +19,7 @@ Include the following snippet in the `.eslintrc` file in your project:
 ```
 
 Make sure that the npm token is available within the docker image (`ADD .npmrc .`).
-Example `Dockerfile.dev`
+Example `Dockerfile.dev`:
 ```
 # Pulling Node.js base image
 FROM node:12-alpine AS base
