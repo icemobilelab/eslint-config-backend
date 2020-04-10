@@ -10,9 +10,6 @@ module.exports = {
         es6: true,
         mocha: true
     },
-    plugins: [
-        'jsdoc'
-    ],
     rules: {
         'brace-style': [2, '1tbs', { 'allowSingleLine': true }],
         'camelcase': 2,
