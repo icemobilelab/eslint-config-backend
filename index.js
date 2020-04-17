@@ -3,7 +3,10 @@
 module.exports = {
 
     globals: {
-        MyGlobals: true
+        describe: 'readonly',
+        it: 'readonly',
+        before: 'readonly',
+        beforeEach: 'readonly'
     },
     env: {
         node: 2,

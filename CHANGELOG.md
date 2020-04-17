@@ -11,6 +11,10 @@ The versioning rules are described on http://semver.org/
 
 ## Eslint config backend changelog
 
+### 1.1.0
+
+* Added globals definition for `describe`, `it`, `before` and `beforeEach`
+
 ### 1.0.2
 
 * Removed jsdoc rules, since most services will fail because of this. Added instructions for the Dockerfile.
