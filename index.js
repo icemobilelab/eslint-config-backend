@@ -6,7 +6,7 @@ module.exports = {
         describe: 'readonly',
         it: 'readonly',
         before: 'readonly',
-        beforeEach: 'v'
+        beforeEach: 'readonly'
     },
     env: {
         node: 2,
