@@ -34,7 +34,7 @@ module.exports = {
         'no-unused-vars': 'error'
     },
     parserOptions: {
-        ecmaVersion: 2018
+        ecmaVersion: 2020
     },
     settings: {
         jsdoc: {
