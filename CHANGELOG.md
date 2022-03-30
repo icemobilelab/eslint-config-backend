@@ -11,6 +11,9 @@ The versioning rules are described on http://semver.org/
 
 ## Eslint config backend changelog
 
+### 1.1.0
+* Bumped `ecmaVersion` to 2020
+
 ### 1.0.2
 
 * Removed jsdoc rules, since most services will fail because of this. Added instructions for the Dockerfile.
