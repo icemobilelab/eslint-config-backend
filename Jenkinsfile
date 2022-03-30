@@ -1,6 +1,6 @@
 #!groovy
 
-@Library('jenkins-pipeline-library@master') _
+@Library('pipeline_library@master') _
 
 import com.icemobile.jenkins.pipeline.lib.*
 
@@ -34,6 +34,9 @@ pipeline {
           }
 
           delDCandSECRETS(projectName)
+          // sets the service-tag.txt for the loyalty-ci-dashboard
+          writeFile(file: 'service-tag.txt', text: serviceTag.trim())
+          archiveArtifacts('service-tag.txt')
 
           setGithubStatus(projectName, GIT_COMMIT, BUILD_URL, "Unit Test", true);
           setGithubStatus(projectName, GIT_COMMIT, BUILD_URL, "Version Bump", true);
@@ -75,7 +78,11 @@ pipeline {
       }
       steps {
         script {
-          publishToNPM();
+            if (projectVersion == gitTag) {
+                echo 'No version change. Skip publishToNPM'
+            } else {
+                publishToNPM();
+            }
         }
       }
     }
