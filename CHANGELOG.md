@@ -11,6 +11,9 @@ The versioning rules are described on http://semver.org/
 
 ## Eslint config backend changelog
 
+### 1.1.1
+* Re-publish to fix npm registry availability
+
 ### 1.1.0
 * Bumped `ecmaVersion` to 2020
 
